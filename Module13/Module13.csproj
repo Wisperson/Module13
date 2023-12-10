@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HomeWork\HomeworkTasks.cs" />
     <Compile Include="Practice\PracticeTasks.cs" />
     <Compile Include="Practice\Task1.cs" />
     <Compile Include="Practice\Task2.cs" />
@@ -55,8 +56,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="HomeWork\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

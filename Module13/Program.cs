@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Module13.Practice;
-//using Module13.HomeWork;
+using Module13.HomeWork;
 
 namespace Module13
 {
@@ -13,6 +13,8 @@ namespace Module13
         static void Main(string[] args)
         {
             PracticeTasks.Start();
+            Console.ReadKey();
+            HomeworkTasks.Start();
             Console.ReadKey();
         }
     }
