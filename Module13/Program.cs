@@ -12,16 +12,8 @@ namespace Module13
     {
         static void Main(string[] args)
         {
-
-            Task1 t1 = new Task1();
-            t1.printAll();
-            t1.PrintSorted();
-            int sm = t1.SecondMax();
-            Console.WriteLine($"second max = {sm}");
-            t1.printAll();
-            t1.PrintSorted();
+            PracticeTasks.Start();
             Console.ReadKey();
-
         }
     }
 }

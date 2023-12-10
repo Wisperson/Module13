@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Practice\PracticeTasks.cs" />
     <Compile Include="Practice\Task1.cs" />
+    <Compile Include="Practice\Task2.cs" />
+    <Compile Include="Practice\Task3.cs" />
+    <Compile Include="Practice\Task4.cs" />
+    <Compile Include="Practice\Task5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
